@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+    <link rel="stylesheet" href="aula003.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1 id="titulo">Somando valores</h1>
+    <div class="container">
+        <input type="number" name="txtn1" id="txtn1">
+        <input type="number" name="txtn2" id="txtn2">
+        <input type="button" value="Somar" onclick="somar()">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </div>
+    <div id="resultado">Resultado</div>
+    <script>
+        function somar() {
+            var pn1 = window.document.querySelector('input#txtn1')
+            var pn2 = window.document.querySelector('input#txtn2')
+            var r = window.document.getElementById('resultado')
+            var n1 = Number.parseFloat(pn1.value)
+            var n2 = Number.parseFloat(pn2.value)
+            var s = n1 + n2
+            r.innerText = "O resultado é "+ s
+
+        }
+    </script>
+</body>
+</html>

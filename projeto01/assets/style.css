@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(59, 121, 255);
+    font: normal 16pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 2px 3px 3px rgba(0, 0, 0, 0.808);
+    text-align: center;
+}
+
+footer {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding-top: 15px;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    color: black;
+    cursor: pointer;
+    font: italic 17px Arial;   
+}
+
+div#resultado {
+    padding-top: 15px;
+}
+
+img {
+    width: 190px;
+}

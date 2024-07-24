@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p id="paragrafo">Aprendendo a usar <b>DOM</b> em JavaScript</p>
+    <div>Clique em mim</div>
+    <div class="viva">Classe</div>
+    <div id="joia">joia</div>
+    <script>
+    var p1 = window.document.getElementsByTagName('p')[1]
+    p1.style.color = 'red'
+    p1.style.background = 'white'
+    var p0 = window.document.querySelector('div.viva')
+    p0.style.color = 'orange'
+    var t = window.document.getElementById('joia')
+    t.style.color = 'blue'
+    </script>
+</body>
+</html>
